@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zhushi Construction</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:Inter,sans-serif;
+  background:#0b0b0b;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  text-align:center;
+}
+.box{
+  width:100%;
+  max-width:380px;
+  padding:30px;
+}
+h1{
+  color:#20c15a;
+  margin-bottom:10px;
+}
+p{
+  color:#ccc;
+  margin-bottom:30px;
+}
+a{
+  display:block;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:6px;
+  font-weight:600;
+  text-decoration:none;
+}
+.whatsapp{
+  background:#20c15a;
+  color:#000;
+}
+.call{
+  border:1px solid #20c15a;
+  color:#20c15a;
+}
+.site{
+  background:#1a1a1a;
+  color:#fff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h1>Zhushi Construction</h1>
+  <p>Ndërtime • Renovime • Projekte Profesionale</p>
+
+  <a class="whatsapp" href="https://wa.me/38349880866">WhatsApp</a>
+  <a class="call" href="tel:+38349880866">Thirr Tani</a>
+  <a class="site" href="index.html">Website</a>
+</div>
+
+</body>
+</html>

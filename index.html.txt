@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zhushi Construction</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --green:#20c15a;
+  --black:#0b0b0b;
+  --gray:#1a1a1a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Inter,sans-serif;
+  background:var(--black);
+  color:#fff;
+  line-height:1.6;
+}
+.container{
+  width:90%;
+  max-width:1100px;
+  margin:auto;
+}
+header{
+  padding:100px 0;
+  text-align:center;
+}
+header h1{
+  font-size:3rem;
+  color:var(--green);
+}
+header p{
+  color:#ccc;
+  margin:20px 0 40px;
+}
+.btn{
+  padding:15px 30px;
+  background:var(--green);
+  color:#000;
+  font-weight:600;
+  text-decoration:none;
+  border-radius:6px;
+}
+section{
+  padding:80px 0;
+}
+h2{
+  text-align:center;
+  margin-bottom:50px;
+}
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+.card{
+  background:var(--gray);
+  padding:30px;
+  border-radius:8px;
+}
+.testimonials{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:25px;
+}
+.contact{
+  max-width:600px;
+  margin:auto;
+}
+input,textarea{
+  width:100%;
+  padding:15px;
+  margin-bottom:15px;
+  background:#111;
+  border:1px solid #333;
+  color:#fff;
+  border-radius:5px;
+}
+footer{
+  padding:30px;
+  text-align:center;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <h1>Zhushi Construction</h1>
+    <p>Ndërtime të sigurta • Renovime moderne • Projekte profesionale</p>
+    <a class="btn" href="tel:+38349880866">Na Kontakto</a>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Shërbimet Tona</h2>
+    <div class="services">
+      <div class="card">Ndërtime Banesore & Komerciale</div>
+      <div class="card">Renovime të Brendshme & të Jashtme</div>
+      <div class="card">Punë Betoni & Strukturore</div>
+      <div class="card">Menaxhim Projektesh</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <!-- PA TITULL H2 -->
+    <div class="testimonials">
+      <div class="card">“Punë shumë profesionale dhe afate të sakta.”</div>
+      <div class="card">“Cilësi e lartë dhe komunikim perfekt.”</div>
+      <div class="card">“Zgjedhja më e mirë për ndërtim.”</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Na Kontaktoni</h2>
+    <div class="contact">
+      <form>
+        <input type="text" placeholder="Emri">
+        <input type="email" placeholder="Email">
+        <textarea rows="5" placeholder="Mesazhi"></textarea>
+        <button class="btn" type="submit">Dërgo</button>
+      </form>
+      <p style="margin-top:20px;color:#ccc;text-align:center">
+        📞 +383 49 880 866<br>
+        ✉️ valmirzhushi@outlook.com
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Zhushi Construction
+</footer>
+
+</body>
+</html>
